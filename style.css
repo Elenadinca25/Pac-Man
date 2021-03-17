@@ -1,0 +1,122 @@
+body {
+    background-color: hsl(56, 77%, 8%);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid #211f03;
+    border-radius: 4px;
+    box-shadow: 0 0 10px white;
+    justify-content: center;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: #2D3D19;
+    border: 5px solid #ffffff64;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: hsl(79, 53%, 12%);
+}
+
+.power-pellet {
+    background-color: #20280D;
+    border-radius: 10px;
+}
+
+.blinky {
+    background-color: red;
+    border: 0px;
+}
+
+.pinky {
+    background-color: pink;
+    border: 0px;
+}
+
+.inky {
+    background-color: cyan;
+    border: 0px;
+}
+
+.clyde {
+    background-color: orange;
+    border: 0px;
+}
+
+.scared-ghost {
+    background-color: aquamarine;
+    border: 0px;
+}
+
+
+
+.pac-man {
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: center ;
+    color: red;
+    text-shadow: 0 0 10px hsla(0, 22%, 90%, 0.784);
+    /* font-family: 'Syne Mono', monospace; */
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    text-align: center ;
+    color: red;
+    text-shadow: 0 0 10px #f0c2c2c8;
+    font-family: 'Exo', sans-serif;
+    font-size: 40px;
+}
+
+
+/* .sitemessage {
+    display: inline-block;
+    white-space: nowrap;
+    animation: floatText 15s infinite linear;
+     padding-left: 100%;
+  }
+  .sitemessage:hover {
+    animation-play-state: paused;
+  }
+  @keyframes floatText {
+    to {
+      transform: translateX(-100%);
+    }
+  } */
+
+
+li {
+    display: inline-block;
+}
+
+.fa-circle:before {
+    content: "\f111";
+    color: white;
+}
+
+.details {
+    border: solid #211f03;
+    border-radius: 4px;
+    box-shadow: 0 0 10px white;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-shadow: 0 0 10px hsla(0, 0%, 100%, 0.564);
+}
